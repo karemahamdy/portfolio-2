@@ -86,7 +86,7 @@ export default function Project({
   };
 
   return (
-    <li className="group relative list-none">
+    <li className="group relative list-none border rounded-sm border-white/25 ">
       <div className="relative p-4 rounded-2xl ">
         <div className="relative space-y-4">
           {/* Header Section */}

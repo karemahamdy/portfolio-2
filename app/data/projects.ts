@@ -20,53 +20,81 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  // ---------------- FREELANCE ----------------
   {
-    "title": "Car Rental Management System",
-    "description": "Architected and developed a comprehensive car rental management platform using NestJS and TypeScript. Implemented clean architecture principles to ensure maintainability and scalability. Engineered secure authentication flows using JWT, Passport.js, and Clerk. Integrated Cloudinary for efficient car image management and Supabase for high-performance database operations. Implemented comprehensive API documentation with Swagger and established a robust testing framework using Jest.",
-    "technologies": [
-      { "category": "Backend", "items": "NestJS, TypeScript, Node.js" },
-      { "category": "Database & ORM", "items": "Prisma, MikroORM, Supabase" },
-      { "category": "Authentication & Security", "items": "JWT, Passport.js, Clerk" },
-      { "category": "Media & Storage", "items": "Cloudinary" },
-      { "category": "Testing & Documentation", "items": "Jest, Swagger" }
+    title: "Avventure Website",
+    description:
+      "Freelance project providing Travel, safari, and booking  trip. Built with React and Bootstrap, included form validation and Axios integration.",
+    technologies: [
+      { category: "Frontend", items: "html, css, Bootstrap, js, React" },
+      { category: "APIs & Validation", items: "Axios, React Hook Form" }
     ],
-    "visible": true,
-    "projectType": "freelance"
+    // links: [{ label: "GitHub", url: "https://github.com/karemahamdy/Education-Website" }],
+    visible: true,
+    projectType: "freelance"
   },
   {
-    "title": "Taafeei",
-    "description": "Led the development of a sophisticated healthcare appointment management system. Engineered a scalable architecture using ASP.NET Core MVC, implementing secure payment processing through Geidea Payment Gateway for Saudi Arabian market. Integrated real-time communication features including SMS notifications via Twilio and telemedicine capabilities using Zoom API. Deployed the system on Azure with Docker containers for optimal performance and reliability.",
-    "technologies": [
-      { "category": "Backend", "items": "ASP.NET Core, SQL Server, Entity Framework Core, JWT Authentication, Google OAuth" },
-      { "category": "APIs & Services", "items": "Geidea Payment Gateway, Twilio SMS, Zoom Video API" },
-      { "category": "DevOps & Infrastructure", "items": "Docker, Azure, Git" },
-      { "category": "Architecture", "items": "Clean Architecture, Repository Pattern, Dependency Injection" }
+    title: "S-Power-M Portfolio",
+    description:
+      "Dynamic personal portfolio showcasing skills, achievements, and professional growth. Built with React and Tailwind CSS.",
+    technologies: [{ category: "Frontend", items: "React, Vite, Tailwind CSS" }],
+    links: [{ label: "GitHub", url: "https://github.com/karemahamdy/S-power-M-portfolio" }],
+    visible: true,
+    projectType: "freelance"
+  },
+  // ---------------- STUDENT ----------------
+  {
+    title: "E-commerce with Admin Panel",
+    description:
+      "Full-stack e-commerce platform with Vue 3 and Pinia. Implemented authentication, shopping cart, payment processing, order management, product catalog, and dual interfaces for users and admin dashboard.",
+    technologies: [
+      { category: "Frontend", items: "Vue 3, Pinia, PrimeVue, Tailwind CSS" },
+      { category: "Backend & Database", items: "Supabase, PostgreSQL" }
     ],
-    "visible": true,
-    "projectType": "freelance"
+    links: [{ label: "GitHub", url: "https://github.com/karemahamdy/E-commerce" }],
+    visible: true,
+    projectType: "student"
   },
   {
-    "title": "Dross",
-    "description": "Developed a full-featured e-learning platform with real-time communication capabilities. Built a robust course management system allowing instructors to create and update educational content. Implemented real-time messaging between students and instructors using Firebase. Designed and optimized database operations using SQL Server and Entity Framework for optimal performance.",
-    "technologies": [
-      { "category": "Frontend", "items": "Angular" },
-      { "category": "Backend", "items": "ASP.NET Core, SQL Server, Entity Framework" },
-      { "category": "Realtime & Messaging", "items": "Firebase" }
+    title: "Hotel Management System",
+    description:
+      "Room-based management system with admin dashboard to manage bookings, guests, cabins, and statistics. Integrated JWT authentication and Supabase backend. Client-side built with React, React Query, and ShadcnUI.",
+    technologies: [
+      { category: "Frontend", items: "Next, React, React Query, Tailwind CSS, ShadcnUI, React Hook Form" },
+      { category: "Backend & Auth", items: "Supabase, JWT" }
     ],
-    "visible": true,
-    "projectType": "freelance"
+    links: [{ label: "GitHub", url: "https://github.com/karemahamdy/The-Wild-Oasis" }],
+    visible: true,
+    projectType: "student"
+  },
+  {
+    title: "iPhone Advertisement Project",
+    description:
+      "Interactive landing page to showcase iPhone features, video quality, and camera. Implemented animations with GSAP and optimized rendering using React DevTools.",
+    technologies: [
+      { category: "Frontend", items: "React, Vite, Tailwind CSS" },
+      { category: "Animation", items: "GSAP" }
+    ],
+    visible: true,
+    projectType: "side"
+  },
+  // ---------------- PERSONAL ----------------
+  {
+    title: "Forkify Recipes",
+    description:
+      "Recipe website following MVC principles with Vanilla JS. Allows users to search pizza recipes, bookmark favorites, and manage collections. Built with Parcel and Webpack.",
+    technologies: [
+      { category: "Frontend", items: "Vanilla JS, Sass" },
+      { category: "Build Tools", items: "Parcel, Webpack" }
+    ],
+    links: [{ label: "GitHub", url: "https://github.com/karemahamdy/forkify?tab=readme-ov-file" }],
+    visible: true,
+    projectType: "personal"
   },
 
-  {
-    "title": "Talabat API",
-    "description": "Developed a scalable e-commerce platform following Clean Architecture principles, integrating secure payments, caching, and structured API endpoints.",
-    "technologies": [
-      { "category": "Backend", "items": "ASP.NET Core, Entity Framework, SQL Server, Redis, Docker" },
-      { "category": "Patterns", "items": "Onion Architecture, Repository Pattern, Unit of Work, Specification Pattern" },
-      { "category": "Payments & Auth", "items": "Stripe Payment Gateway, JWT Authentication" }
-    ],
-    "visible": true,
-    "projectType": "student"
-  }
+
+  // ---------------- SIDE ----------------
 
 ];
+
+
