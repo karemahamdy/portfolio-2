@@ -7,28 +7,54 @@ export default function About() {
         <h2 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 text-left bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-200 to-gray-400 font-heading">About</h2>
         <div className="space-y-6 text-gray-400 text-left leading-relaxed font-sans">
           <p className="text-sm sm:text-base">
-            I&apos;m a <span className="text-white font-medium font-display">Software Engineer</span> who enjoys building smart and useful things with code — especially on the frontend, where all the behind-the-scenes work happens.
+            I&apos;m a <span className="text-gray-300 font-medium font-display">Software Engineer</span> who enjoys building smart and useful things with code — especially on the frontend, where all the behind-the-scenes work happens.
           </p>
+          
           <p className="text-sm sm:text-base">
-            I started programming back in <span className="text-white bg-white/5 px-2 rounded border border-white/10 font-mono">2016</span> while studying at{' '}
-            <a href="https://www.asu.edu.eg" className="text-gray-300 hover:text-white underline underline-offset-4 transition-colors duration-200">Ain Shams University</a>.
-            After graduating in <span className="text-white bg-white/5 px-2 rounded border border-white/10 font-mono">2019</span>, I explored digital marketing for a short time, but my love for coding pulled me back.
-            I started freelancing as a <span className="text-white font-medium font-display">frontend developer</span>, then found my real passion in frontend development.
+            My journey with <span className="text-gray-300 font-medium">frontend </span> began in{" "}
+            <span className="text-gray-300 bg-white/5 px-2 rounded border border-white/10 font-mono">2022</span>{" "}
+            while studying at{" "}
+            <a
+              href="https://www.azhar.edu.eg"
+              className="text-gray-300 hover:text-gray-300 underline underline-offset-4 transition-colors duration-200"
+            >
+              Al-Azhar University
+            </a>
+            . During{" "}
+            <span className="text-gray-300 bg-white/5 px-2 rounded border border-white/10 font-mono">2022–2023</span>,
+            I dedicated myself to learning modern frontend skills through{" "}
+            <span className="text-gray-300 font-medium">ITI</span> and{" "}
+            <span className="text-gray-300 font-medium">IEEE programs</span>, where I built a solid foundation in
+            HTML, CSS, JavaScript, and frameworks like React.
+          
           </p>
+          
           <p className="text-sm sm:text-base">
-            To level up my skills, I joined the <span className="text-white font-medium font-display">ITI .NET & Angular track</span> while continuing to freelance and build projects.
-            Along the way, I discovered how much I enjoy teaching and sharing what I know. I became an <span className="text-white font-medium font-display">External Instructor at ITI</span>,
-            where I&apos;ve trained over <span className="text-white bg-white/5 px-2 rounded border border-white/10 font-mono">200</span> students in frontend development and software best practices.
-          </p>
+            In my graduation year{" "}
+            <span className="text-gray-300 bg-white/5 px-2 rounded border border-white/10 font-mono">2024</span>,
+            I joined <span className="text-gray-300 font-medium">Bltzo</span> as a frontend intern, gaining hands-on
+            experience working on real projects and strengthening both my technical and teamwork skills.
+            </p>
+        
           <p className="text-sm sm:text-base">
-            Later, I joined the <span className="text-white font-medium font-display">Digital Egypt Pioneers Initiative (DEPI)</span>, a program by the{' '}
-            <span className="text-white font-medium font-display">Ministry of Communications</span>, as a <span className="text-white font-medium font-display">Software Instructor</span>.
-            There, I&apos;ve taught <span className="text-white font-medium font-display">MERN Stack</span> and <span className="text-white font-medium font-display">.NET</span> to over{' '}
-            <span className="text-white bg-white/5 px-2 rounded border border-white/10 font-mono">250</span> students so far.
+            Throughout my university years, I kept learning and exploring the{" "}
+            <span className="text-gray-300 font-medium font-display">web development</span> field,
+            building projects and sharpening my skills. My{" "}
+            <span className="text-gray-300 font-medium">graduation project</span> was recognized as{" "}
+            <span className="text-gray-300 font-medium">Best Project</span> in the faculty,
+            At the same time, I discovered my love for{" "}
+            <span className="text-gray-300 font-medium">teaching</span>, working as a{" "}
+            <span className="text-gray-300 font-medium font-display">Programming Instructor </span> 
+            for kids, where I taught them the fundamentals of coding using{" "}
+            <span className="text-gray-300 font-medium">Scratch</span> in a fun and engaging way.
           </p>
+        
+
           <p className="text-sm sm:text-base">
-            I love making complex things easy to understand, and I&apos;m always excited to help others grow as developers.
+            After this experience, I began my{" "}
+            {" "} <span className="text-gray-300 font-medium font-display">professional journey</span>{" "} as a{" "} <span className="text-white font-medium font-display">Frontend Developer</span>{" "} at{" "} <span className="text-white font-medium font-display">Cloud Secrets</span>
           </p>
+        
         </div>
       </div>
       <div className="group w-32 h-32 sm:w-48 sm:h-48 relative mb-4 sm:mb-0 sm:self-start sm:mt-10">
