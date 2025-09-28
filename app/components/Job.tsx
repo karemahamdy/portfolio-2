@@ -35,7 +35,19 @@ export default function Job({
 
   return (
     <div className="flex flex-col gap-1">
-      <h3 className="text-base text-foreground font-normal">{role}</h3>
+      <h3 className="text-base text-foreground font-normal">{role}
+        <a
+          href={companyUrl}
+          className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+          target={isExternalLink ? "_blank" : undefined}
+          rel={isExternalLink ? "noopener noreferrer" : undefined}
+        >
+          
+          {isExternalLink && (
+            <ExternalLink className="inline-block w-3 h-3 ml-0.5 -mt-px opacity-60" />
+          )}
+        </a>
+      </h3>
       <div className="flex items-baseline gap-x-1.5 text-sm">
         <a
           href={companyUrl}
@@ -44,9 +56,9 @@ export default function Job({
           rel={isExternalLink ? "noopener noreferrer" : undefined}
         >
           {company}
-          {isExternalLink && (
+          {/* {isExternalLink && (
             <ExternalLink className="inline-block w-3 h-3 ml-0.5 -mt-px opacity-60" />
-          )}
+          )} */}
         </a>
         <span className="text-muted-foreground/40">·</span>
         <span className="text-muted-foreground/60">{period}</span>

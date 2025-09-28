@@ -7,18 +7,18 @@ export default function About() {
         <h2 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 text-left bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-200 to-gray-400 font-heading">About</h2>
         <div className="space-y-6 text-gray-400 text-left leading-relaxed font-sans">
           <p className="text-sm sm:text-base">
-            I&apos;m a <span className="text-white font-medium font-display">Software Engineer</span> who enjoys building smart and useful things with code — especially on the backend, where all the behind-the-scenes work happens.
+            I&apos;m a <span className="text-white font-medium font-display">Software Engineer</span> who enjoys building smart and useful things with code — especially on the frontend, where all the behind-the-scenes work happens.
           </p>
           <p className="text-sm sm:text-base">
             I started programming back in <span className="text-white bg-white/5 px-2 rounded border border-white/10 font-mono">2016</span> while studying at{' '}
             <a href="https://www.asu.edu.eg" className="text-gray-300 hover:text-white underline underline-offset-4 transition-colors duration-200">Ain Shams University</a>.
             After graduating in <span className="text-white bg-white/5 px-2 rounded border border-white/10 font-mono">2019</span>, I explored digital marketing for a short time, but my love for coding pulled me back.
-            I started freelancing as a <span className="text-white font-medium font-display">frontend developer</span>, then found my real passion in backend development.
+            I started freelancing as a <span className="text-white font-medium font-display">frontend developer</span>, then found my real passion in frontend development.
           </p>
           <p className="text-sm sm:text-base">
             To level up my skills, I joined the <span className="text-white font-medium font-display">ITI .NET & Angular track</span> while continuing to freelance and build projects.
             Along the way, I discovered how much I enjoy teaching and sharing what I know. I became an <span className="text-white font-medium font-display">External Instructor at ITI</span>,
-            where I&apos;ve trained over <span className="text-white bg-white/5 px-2 rounded border border-white/10 font-mono">200</span> students in backend development and software best practices.
+            where I&apos;ve trained over <span className="text-white bg-white/5 px-2 rounded border border-white/10 font-mono">200</span> students in frontend development and software best practices.
           </p>
           <p className="text-sm sm:text-base">
             Later, I joined the <span className="text-white font-medium font-display">Digital Egypt Pioneers Initiative (DEPI)</span>, a program by the{' '}

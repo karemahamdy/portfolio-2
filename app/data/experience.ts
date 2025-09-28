@@ -9,35 +9,36 @@ export interface Job {
 
 export const jobs: Job[] = [
   {
-    role: 'External Instructor',
-    company: 'Information Technology Institute - ITI',
-    period: 'Jul \'24 – Present',
-    companyUrl: 'https://iti.gov.eg/iti/home',
-    logoUrl: '/images/ITI.jpg',
+    role: 'Cloud Secrets',
+    company: 'Frontend Developer',
+    period: 'Dec \'24 – Present',
+    companyUrl: 'https://www.linkedin.com/company/cloud-secrets/posts/?feedView=all',
+    // logoUrl: '/images/ITI.jpg',
     visible: true
   },
   {
-    role: 'Software Instructor',
-    company: 'Digital Egypt Pioneers Initiative - DEPI ',
-    period: 'Jul \'24 – Present',
-    companyUrl: 'https://depi.eg',
-    logoUrl: '/images/DEPI.jpg',
+    role: 'Barqify',
+        company: 'Frontend Developer',
+
+    period: 'Jun \'25 – Aug \'25',
+    // companyUrl: 'https://gamifiersa.com/about.html',
+    // logoUrl: '/images/GamifierSA.jpg',
+    visible: true
+  },
+    {
+    role: 'Quodwa',
+    company: 'Programming Instructor',
+    period: 'Feb \'24 – Jul \'24',
+    // companyUrl: 'https://depi.eg',/
+    // logoUrl: '/images/DEPI.jpg',
     visible: true
   },
   {
-    role: 'Frontend Developer',
-    company: 'GamifierSA',
-    period: 'May \'24 – Sep \'24',
-    companyUrl: 'https://gamifiersa.com/about.html',
-    logoUrl: '/images/GamifierSA.jpg',
+    role: 'BLTZO',
+    company: 'Frontend Developer',
+    period: 'Nov \'23 – Jun \'24',
+    companyUrl: 'https://www.linkedin.com/company/bltzo/posts/?feedView=all',
+    // logoUrl: '/images/Mutqana.jpg',
     visible: true
-  },
-  {
-    role: 'Software Engineer',
-    company: 'Mutqana ',
-    period: 'Jul \'22 – Sep \'23',
-    companyUrl: 'https://mutqana.com',
-    logoUrl: '/images/Mutqana.jpg',
-    visible: true
-  },
+  },  
 ];
