@@ -29,8 +29,6 @@ export default function Home() {
         {sectionVisibility.workExperience && <Experience />}
         {sectionVisibility.skills && <Skills />}
         {sectionVisibility.projects && <Projects />}
-
-
         {sectionVisibility.contact && <Contact />}
 
         {/* Example of using SectionTemplate with visible prop */}
