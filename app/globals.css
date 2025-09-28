@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 20%;
+
+    --primary: 0 0% 20%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 20%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 20%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 20%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 96%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 96%;
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 96%;
+
+    --primary: 0 0% 96%;
+    --primary-foreground: 0 0% 4%;
+
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 0 0% 96%;
+
+    --muted: 0 0% 8%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 0 0% 8%;
+    --accent-foreground: 0 0% 96%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 96%;
+
+    --border: 0 0% 12%;
+    --input: 0 0% 12%;
+    --ring: 0 0% 83%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-feature-settings: 'cv01', 'cv02', 'cv03', 'cv04', 'ss01', 'ss02';
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-inter), -apple-system, BlinkMacSystemFont,
+      'Segoe UI', system-ui, sans-serif;
+    letter-spacing: -0.015em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-medium tracking-tight;
+    letter-spacing: -0.02em;
+  }
+
+  a {
+    @apply text-foreground hover:text-foreground/90 transition-colors duration-200;
+  }
+
+  p {
+    @apply text-muted-foreground leading-relaxed;
+  }
+}
+
+@layer components {
+  .section-card {
+    @apply rounded-lg bg-card/50 border border-border/50 p-6;
+  }
+
+  .experience-item {
+    @apply relative pl-6;
+  }
+
+  .experience-item::before {
+    content: '';
+    @apply absolute left-0 top-[10px] w-[6px] h-[6px] rounded-full bg-muted-foreground/40;
+  }
+
+  .experience-item::after {
+    content: '';
+    @apply absolute left-[2.5px] top-[18px] w-[1px] h-[calc(100%-8px)] bg-border/40;
+  }
+
+  .experience-item:last-child::after {
+    @apply hidden;
+  }
+}
+
+@layer utilities {
+  .animate-dot-appear {
+    animation: dot-appear 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  }
+
+  .group:hover .animate-spin-on-hover {
+    animation: spin 4s linear infinite;
+  }
+}
+
+@keyframes dot-appear {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 10px) scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
