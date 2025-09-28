@@ -12,7 +12,7 @@ export default function Header() {
       <div className="flex justify-between items-start">
         <div>
           <h1 className="text-2xl font-normal text-foreground">
-            Karim Essam
+            Karema Hamdy
           </h1>
           <div className="mt-1">
             <p className="text-base text-muted-foreground">Software Engineer</p>
@@ -20,14 +20,14 @@ export default function Header() {
         </div>
         <div className="flex items-center gap-6">
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1Dos5jKYe7S5ICf1LbRBYMd6-W98BLYmA/view?usp=drive_link"
             className="text-muted-foreground no-underline hover:text-foreground transition-colors duration-200"
             aria-label="Resume"
           >
             <FileText size={20} />
           </a>
           <a
-            href="https://github.com/KaEssam"
+            href="https://github.com/karemahamdy"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground no-underline hover:text-foreground transition-colors duration-200"
@@ -36,7 +36,7 @@ export default function Header() {
             <Github size={20} />
           </a>
           <a
-            href="https://www.linkedin.com/in/kaessam"
+            href="https://www.linkedin.com/in/karema-hamdy2010/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground no-underline hover:text-foreground transition-colors duration-200"

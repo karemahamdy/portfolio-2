@@ -9,29 +9,29 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Karim Essam | Software Engineer",
-  description: "Experienced Software Engineer specializing in backend development with ASP.NET Core, SQL Server, and cloud technologies. View my portfolio to see my latest projects and technical expertise.",
-  keywords: ["Software Engineer", "Backend Developer", "ASP.NET Core", "SQL Server", "Full Stack Developer"],
-  authors: [{ name: "Karim Essam" }],
+  title: "Karema Hamdy | Software Engineer",
+  description: "Experienced Software Engineer specializing in Frontend development with React | Next | Vue View my portfolio to see my latest projects and technical expertise.",
+  keywords: ["Software Engineer", "Frontend Developer", "React | Next | Vue", "Full Stack Developer"],
+  authors: [{ name: "Karema Hamdy" }],
   openGraph: {
-    title: "Karim Essam | Software Engineer",
-    description: "Experienced Software Engineer specializing in backend development with ASP.NET Core, SQL Server, and cloud technologies.",
+    title: "Karema Hamdy | Software Engineer",
+    description: "Experienced Software Engineer specializing in Frontend development with React | Next | Vue",
     type: "website",
     locale: "en_US",
     images: [
       {
-        url: "/pic.png",
+        url: "/karema.jpg",
         width: 1200,
         height: 630,
-        alt: "Karim Essam - Software Engineer"
+        alt: "Karema Hamdy - Software Engineer"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Karim Essam | Software Engineer",
-    description: "Experienced Software Engineer specializing in backend development with ASP.NET Core, SQL Server, and cloud technologies.",
-    images: ["/pic.png"]
+    title: "Karema Hamdy | Software Engineer",
+    description: "Experienced Software Engineer specializing in Frontend development with ASP.NET Core",
+    images: ["/karema.jpg"]
   },
   icons: {
     icon: '/favicon.ico',

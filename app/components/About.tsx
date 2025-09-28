@@ -36,7 +36,7 @@ export default function About() {
         <div className="absolute inset-0 rounded-full bg-black"></div>
         <div className="relative w-full h-full transform group-hover:scale-[0.98] transition-transform duration-300">
           <Image
-            src="/pic.png"
+            src="/karema.jpg"
             alt="Profile"
             fill
             className="rounded-full object-cover border-2 border-gray-800"
