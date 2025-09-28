@@ -10,38 +10,48 @@ export interface SkillCategory {
 
 export const skillCategories: SkillCategory[] = [
   {
-    name: "Backend Development",
-    skills: [
-      { name: "C#" },
-      { name: "ASP.NET Core" },
-      { name: "ASP.NET Web API" },
-      { name: "Node.js" },
-      { name: "Express" },
-      { name: "NestJS" },
-      { name: "TypeScript" },
-      { name: "Entity Framework Core" },
-      { name: "Prisma ORM" },
-      { name: "LINQ" },
-      { name: "SQL Server" },
-      { name: "REST APIs" },
-      { name: "JWT Authentication" },
-      { name: "Clerk" },
-      { name: "Passport.js" },
-      { name: "Docker" },
-      { name: "Azure" }
-    ],
-    visible: true
-  },
-  {
     name: "Frontend Development",
     skills: [
-      { name: "Angular" },
+      { name: "Vue.js" },
       { name: "React" },
       { name: "Next.js" },
       { name: "HTML" },
       { name: "CSS" },
       { name: "JavaScript" },
-      { name: "Tailwind CSS" }
+      { name: "TypeScript" },
+      { name: "Tailwind CSS" },
+      { name: "Bootstrap" },
+      { name: "Sass" },
+      { name: "MUI" },
+      { name: "ShadCN" },
+      { name: "Chakra UI" },
+      { name: "React Hook Form" },
+      { name: "Zod" },
+      { name: "Axios" },
+      { name: "Webpack" },
+      { name: "Babel" },
+      { name: "Vite" },
+      { name: "Pinia" },
+      { name: "Vuex" },
+      { name: "Zustand" },
+      { name: "Redux" },
+      { name: "Redux Toolkit" },
+      { name: "Prime UI" },
+      { name: "Vuetify" },
+      { name: "CSS Animation" },
+      { name: "Framer Motion" },
+      { name: "GSAP" },
+      { name: "Context API" },
+      { name: "ES6" }],
+    visible: true
+  },
+    {
+    name: "Backend Development",
+    skills: [
+      { name: "Node.js" },
+      { name: "SQL Server" },
+      { name: "REST APIs" },   
+      { name: "MongoDB" },
     ],
     visible: true
   },
@@ -51,32 +61,17 @@ export const skillCategories: SkillCategory[] = [
       { name: "Git" },
       { name: "GitHub" },
       { name: "Visual Studio" },
-      { name: "Jest" },
       { name: "Swagger/OpenAPI" },
       { name: "ESLint" },
       { name: "Prettier" },
-      { name: "Cloudinary" },
       { name: "Supabase" },
       { name: "Firebase" },
-      { name: "Twilio" },
-      { name: "Zoom API" },
-      { name: "Geidea Payment Gateway" },
-      { name: "Stripe" }
+      { name: "Postman" },
+      { name: "figma" },
+      { name: "Jira" },
+
     ],
     visible: true
   },
-  {
-    name: "Software Practices",
-    skills: [
-      { name: "Clean Architecture" },
-      { name: "Onion Architecture" },
-      { name: "SOLID Principles" },
-      { name: "Test-Driven Development (TDD)" },
-      { name: "N-tier Architecture" },
-      { name: "MVC" },
-      { name: "API Documentation" },
-      { name: "Specification Pattern" }
-    ],
-    visible: true
-  }
+
 ];

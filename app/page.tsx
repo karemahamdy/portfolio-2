@@ -1,5 +1,6 @@
 'use client';
 
+import { ExternalLink } from 'lucide-react';
 import About from './components/About';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
@@ -17,7 +18,7 @@ const sectionVisibility = {
   skills: true,
   contact: true,
   // Add a custom section as an example
-  customSection: false
+  customSection: true
 };
 
 export default function Home() {
@@ -29,15 +30,45 @@ export default function Home() {
         {sectionVisibility.workExperience && <Experience />}
         {sectionVisibility.skills && <Skills />}
         {sectionVisibility.projects && <Projects />}
-        {sectionVisibility.contact && <Contact />}
 
         {/* Example of using SectionTemplate with visible prop */}
         <SectionTemplate
-          title="Custom Section"
+          title="Awards"
           visible={sectionVisibility.customSection}
         >
-          <p>This is a custom section that can be toggled on/off.</p>
+          <p> 50 Days Badge 2025 on leetcode
+            <a
+            href={"https://leetcode.com/medal/?showImg=0&id=6864173&isLevel=false"}
+            className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+            target={ "_blank" }
+            rel={ "noopener noreferrer"}
+          >
+            <ExternalLink className="inline-block w-3 h-3 ml-0.5 -mt-px opacity-60" /> 
+            </a>
+          </p>
+          <p> Solve SQL 50 Badge 2025 on leetcode
+            <a
+              href={"https://leetcode.com/medal/?showImg=0&id=8122287&isLevel=false"}
+              className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+            >
+              <ExternalLink className="inline-block w-3 h-3 ml-0.5 -mt-px opacity-60" />
+            </a>
+          </p>
+          <p>February 2025 on leetcode
+            <a
+              href={"https://leetcode.com/medal/?showImg=0&id=6334124&isLevel=false"}
+              className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+            >
+              <ExternalLink className="inline-block w-3 h-3 ml-0.5 -mt-px opacity-60" />
+            </a>
+          </p>
         </SectionTemplate>
+        {sectionVisibility.contact && <Contact />}
+
       </div>
     </main>
   );
